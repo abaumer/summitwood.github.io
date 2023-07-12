@@ -1,0 +1,113 @@
+<html lang="en-US" class="loaded">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+
+    
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <title>Summit Woodworking – Tucson</title>
+    <link rel="canonical" href="http://summitwood.com/">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Summit Woodworking – Tucson">
+    <meta property="og:description" content="Specialty Custom Cabinetry & Woodworking in Tucson, Arizona">
+    <meta property="og:url" content="http://summitwood.com/">
+    <meta property="og:site_name" content="Summit Woodworking – Tucson">
+    <meta property="og:image" content="http://summitwood.com/SummitWoodworking-logo-temp.png">
+    <link rel="icon" href="/favicon.png?v=1">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YEWL0PGHK2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-YEWL0PGHK2');
+    </script>
+
+
+    <link rel="stylesheet" href="css/tidy.min.css">
+    
+</head>
+
+<body class="home page-template page-template-page-home page-template-page-home-php page page-id-2 bg-dune">
+    <div id="page" class="site">
+        <div id="content" class="site-content">
+            <div id="content-marker"></div>
+            <div id="primary" class="content-area home">
+                <main id="main" class="site-main">
+                    <section class="hero" >
+                        <div class="hero-bg desktop dark b-lazy" style='background-image: url("/images/summit-bg-table.jpg");' data-src="<?php echo $hero_background_image_object['sizes']['huge']; ?>"></div>
+                        <div id="video-container"></div>
+                        <button class="hide-video btn-video"><span class="fa fa-volume-off"></span></button>
+
+                        
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="hero-content fade-in">
+                                        <img src="/SummitWoodworking-logo.png" title="Summit Woodworking"/>
+                                        <p class="hero-text">Specialty woodwork <br/>for residential & commercial</p>
+                                        <p>Tucson, Arizona
+                                            <br/><a href="mailto:info@summitwood.net" title="Contact us" class="">info@summitwood.net</a>
+                                            <br/>520.444.1234</p>
+                                    </div>
+                                </div>
+                                <div id="bottom-of-hero"></div>
+                            </div>
+                        </div>
+                    </section>
+                </main><!-- #main -->
+            </div><!-- #primary -->
+        </div><!-- #content -->
+        
+    </div><!-- #page -->
+    <!-- Play home video bg -->
+    <script>
+    function loadVideoBackground() {
+      let videoContainer = document.getElementById('video-container');
+      let video = document.createElement('video');
+      video.id = 'video-background';
+      video.autoplay = true;
+      video.muted = true;
+      video.loop = true;
+
+      let source = document.createElement('source');
+      source.src = 'images/summit-4.mp4';
+      source.type = 'video/mp4';
+      // Add alternative video formats here if needed (e.g., WebM, Ogg)
+
+      video.appendChild(source);
+      videoContainer.appendChild(video);
+    }
+    window.addEventListener('load', loadVideoBackground);
+  </script>
+
+    <!-- JSON-LD markup for business. -->
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "@id": "https://summitwood.net",
+        "name": "Summit Woodworking",
+        "description": "Specialty woodwork for residential & commercial in Tucson, Arizona",
+        "url": "https://summitwood.net",
+        "email": "info@summitwood.net",
+        "image": "https://summitwood.net/SummitWoodworking-logo-b.png"
+    }
+    </script>
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function() {
+          var element = document.querySelector('.fade-in');
+          setTimeout(function() {
+            element.classList.add('fade-in-show');
+          }, 500); // Adjust the delay (in milliseconds) to your preference
+        });
+    </script>
+    <div style="position: static !important;"></div>
+</body>
+
+</html>
