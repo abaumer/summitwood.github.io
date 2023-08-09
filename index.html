@@ -74,9 +74,10 @@
       video.autoplay = true;
       video.muted = true;
       video.loop = true;
+      video.setAttribute('playsinline','');
 
       let source = document.createElement('source');
-      source.src = 'images/summit-4.mp4';
+      source.src = 'images/summit-5.mp4';
       source.type = 'video/mp4';
       // Add alternative video formats here if needed (e.g., WebM, Ogg)
 
